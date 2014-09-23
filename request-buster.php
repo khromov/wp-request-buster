@@ -3,7 +3,7 @@
 Plugin Name: Request Buster
 Plugin URI:
 Description: Find naughty plugins using wp_remote_ functions to slow your site down
-Version: 2014.09.23
+Version: 2014.09.23.2
 Author: khromov
 Author URI: https://profiles.wordpress.org/khromov
 License: GPL2
@@ -59,7 +59,8 @@ add_action('admin_bar_menu', function($wp_admin_bar)
 		$main_bar_sub = array(
 			'id' => 'admin-request-buster-submenu-'.$key,
 			'title' => $request['url'] . ' (' . $request['args']['method'] . ')',
-			'href' => '#',
+			'href' => $request['url'],
+			'meta' => array('target' => '_blank' ),
 			'parent' => 'admin-request-buster-main'
 		);
 
