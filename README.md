@@ -2,6 +2,11 @@
 
 Find themes and plugins that are (ab)using wp_remote functions to slow down your site (WordPress plugin)
 
+### Screenshots
+
+![Request Buster screenshot](https://dl.dropboxusercontent.com/u/2758854/request-buster.png)
+
+
 ### Preface
 
 WordPress has functions for getting remote resources (internally using cURL or file_get_contents())
@@ -14,7 +19,3 @@ Request Buster is a plugin that shows you in the top admin bar if any remote req
 * Place request-buster.php in /wp-content/mu-plugins/ (Create the folder if it does not exist)
 * Check the top admin bar to find pages that trigger remote requests
 * Eradicate 
-
-### Screenshots
-
-![Request Buster screenshot](https://dl.dropboxusercontent.com/u/2758854/request-buster.png)
