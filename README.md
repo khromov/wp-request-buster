@@ -14,8 +14,12 @@ Whenever these functions (such as wp_remote_get()) run during a page load reques
 
 Request Buster is a plugin that shows you in the top admin bar if any remote requests were triggered by the current page load. Keeping it open as you develop and use your site will let you find plugins that make remote requests.
 
+The correct way to handle loading of remote resources are:
+* Serving the page and grabbing the remote resource via AJAX **OR**
+* Schedule the remote request to go through WP CRON.
+
 ### Instructions
 
 * Place request-buster.php in /wp-content/mu-plugins/ (Create the folder if it does not exist)
 * Check the top admin bar to find pages that trigger remote requests
-* Eradicate 
+* Remove the naughty plugins, or even better - submit a support thread with the author so it can be fixed.
