@@ -3,12 +3,11 @@
 Plugin Name: Request Buster
 Plugin URI:
 Description: Find naughty plugins using wp_remote_ functions to slow your site down
-Version: 2014.09.23.2
+Version: 1.0
 Author: khromov
 Author URI: https://profiles.wordpress.org/khromov
 License: GPL2
-GitHub Plugin URI: https://github.com/khromov/wp-request-buster
-GitHub Branch:     master
+GitHub Plugin URI: khromov/wp-request-buster
 */
 
 $request_buster_requests = array();
