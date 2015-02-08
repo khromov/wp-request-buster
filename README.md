@@ -23,3 +23,8 @@ The correct way to handle loading of remote resources are:
 * Place request-buster.php in /wp-content/mu-plugins/ (Create the folder if it does not exist)
 * Check the top admin bar to find pages that trigger remote requests
 * Remove the naughty plugins, or even better - submit a support thread with the author so it can be fixed.
+ 
+### Miscellaneous
+
+Supports [GitHub Updater](https://github.com/afragen/github-updater).
+
